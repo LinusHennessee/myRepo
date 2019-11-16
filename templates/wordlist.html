@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+  <div id="deff">
+  <h3 id=defHeader></h3>
+    <p id="definition"></p>
+    <button onclick="closeDef();">close window</button>
+  </div>
+    <div id="boxes">
+    {% for word in wordlist: %}
+        <div class="wordbox" onclick="getDef(this);">{{ word }}</div>
+    {% endfor %}
+    </div>
+</main>
+{% endblock %}

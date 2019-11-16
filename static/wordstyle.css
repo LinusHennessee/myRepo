@@ -1,0 +1,19 @@
+#boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: lightslategray;
+}
+
+.wordbox {
+    text-align: center;
+    border: solid white;
+    margin: 3px;
+
+}
+
+#deff {
+  border: solid black;
+  background-color: lavender;
+  position: fixed;
+  display: none;
+}
